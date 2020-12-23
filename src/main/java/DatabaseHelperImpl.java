@@ -14,6 +14,7 @@ public class DatabaseHelperImpl implements DatabaseHelper {
     }
 
     public void findByName(String tableName, String name) {
+
         try {
             daoDatabase.findByName(tableName, name);
         } catch (SQLException e) {
